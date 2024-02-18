@@ -1,0 +1,62 @@
+.m-bg{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvInd1Ge75JaPthVOuUlIn_r6kYZyVHOGBow&usqp=CAU');
+
+    min-height: 400px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.m-bg h1{
+    color: aliceblue;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 30px;
+    
+}
+
+.m-bg p{
+    color: aliceblue;
+    max-width: 1000px;
+    text-align: center;
+    margin-left: 17%;
+}
+
+
+.m-button{
+    font-size: 20px;
+    border-radius: 30px;
+    border: none;
+    width: 140px;
+    padding: 13px;
+    background-color: green;
+    color: aliceblue;
+    margin-left: 45%;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+
+      .m-bg p{
+        text-align: center;
+        margin-left: 10px;
+      }
+
+
+      .m-button{
+        margin-left: 33%;
+        
+      }
+
+  .mn{
+    padding-bottom: 20px;
+  }
+
+
+}

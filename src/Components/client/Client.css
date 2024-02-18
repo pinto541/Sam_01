@@ -1,0 +1,14 @@
+.c1 h1{
+    text-align: center;
+}
+
+.cimg-all{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.imgc img{
+    width: 100px;
+}

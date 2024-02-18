@@ -1,0 +1,105 @@
+.s-all{
+    
+    padding: 10px;
+    
+    
+}
+
+
+.s-1:hover{
+    background-color: lightgray;
+}
+
+.service-all{
+    background-color: rgb(178, 208, 235);
+    padding: 10px;
+}
+
+.s-1{
+    text-align: center;
+
+     width: 360px;
+     height: 350px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 32px;
+    
+    
+    
+
+}
+
+.fai{
+    text-align: start;
+}
+.s-header{
+   
+    text-align: center;
+    
+}
+
+.s-header h2{
+    font-size: 40px;
+}
+.max{
+    justify-content:center ;
+    display: flex;
+}
+.max p{
+    
+    max-width: 1000px;
+   
+    
+    text-align: left;
+    
+    
+    
+}
+.s-button{
+   border-radius: 20px;
+   border: 1px solid;
+   border-color: green;
+   width: 120px;
+   height: 37px;
+   background-color: white;
+    
+}
+.s-button:hover{
+    background-color: green;
+    color: white;
+
+}
+.horizontal-line1 {
+    width: 40%;
+    
+    height: 2px;
+    background-color: green; /* Change the color as needed */
+    margin: 30px 19px; /* Adjust the margin as needed */
+  }
+
+
+
+  @media only screen and (max-width: 767px) {
+      
+    .s-header h2{
+        text-align: center;
+    }
+     
+    .max p {
+        text-align: justify;
+    }
+
+    .s-all{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+    .s-1{
+        margin-bottom: 10px;
+        
+    }
+
+  }

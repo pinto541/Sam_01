@@ -1,0 +1,29 @@
+.s{
+    width: 350px;
+    background-color: whitesmoke;
+    padding: 30px;
+    
+    
+
+}
+
+.s p{
+    text-align: justify;
+}
+
+.s h2{
+    text-align: center;
+}
+
+.s:hover{
+    color: white;
+    background-color: rgb(127, 156, 127);
+}
+
+
+.s-all{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}

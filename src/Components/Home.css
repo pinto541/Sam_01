@@ -1,0 +1,110 @@
+.ah {
+    position: relative;
+    width: 100%; /* Set the width of the element */
+    height: 850px; /* Set the height of the element */
+    
+  }
+  
+  .ah::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+   
+    background-image: url('https://proest.com/wp-content/uploads/2022/06/Civil-Engineering-Projects.jpg'); /* Add your image URL */
+    background-attachment: fixed;
+    background-position: center;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(2px); /* Adjust the blur amount (5px in this example) */
+    z-index: -1; /* Place the overlay behind the content */
+  }
+  
+  .ah h1 {
+    z-index: 1; /* Ensure the text is above the overlay */
+    position: relative;
+    
+    
+  }
+  
+
+.intro h1{
+    font-size: 60px;
+    
+    font-weight: 00px !important;
+    text-align: center;
+    font-weight: 900;
+    
+    
+    
+}
+
+.hi{
+    font-size: 70px;
+    
+
+}
+
+.h-button{
+    font-size: 20px;
+    border-radius: 30px;
+    border: none;
+    width: 240px;
+    padding: 13px;
+    background-color: green;
+    color: aliceblue;
+    margin-left: 18px;
+
+  }
+
+  
+
+.hb-all{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+@media only screen and (max-width: 767px) {
+
+  .intro h1{
+    font-size: 40px;
+    margin-top: -160px;
+    
+
+  }
+
+  .hi{
+    font-size: 55px;
+    font-weight: bolder;
+    
+  }
+
+  .ah::before {
+    background-attachment: scroll;
+  }
+
+
+  .intro{
+    margin-top: 40px;
+  }
+
+.hb-all {
+  margin-top: 20px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.h-button{
+ margin-top: 25px;
+ width: 200px;
+}
+
+
+
+}

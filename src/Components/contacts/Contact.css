@@ -1,0 +1,55 @@
+.co-all{
+    background-image: url('https://png.pngtree.com/background/20230512/original/pngtree-business-meeting-room-dark-background-picture-image_2502832.jpg');
+
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.co1-all{
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 500px;
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    
+}
+
+.contact-container {
+    border: 1px solid #fff; 
+    border-radius: 0.5rem;
+    width: 40px;
+    
+   
+    
+  }
+
+
+  @media only screen and (max-width: 767px) {
+.co-all{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+    
+}
+
+
+.co1-all{
+    width: 350px;
+}
+
+
+
+
+
+
+  }

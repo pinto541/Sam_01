@@ -1,0 +1,23 @@
+.p-photos{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+
+.p-header{
+    text-align: center;
+}
+
+.hello :is(img){
+
+    height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: all 0.3s linear;
+
+}
+
+.hello:hover{
+    transform: scale(1.1);
+}

@@ -1,0 +1,122 @@
+.c-banner{
+    background-image: url('https://wallpapercave.com/wp/wp8414151.png');
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.c-banner h1{
+    font-size: 50px;
+}
+
+.ca-des{
+    max-width: 700px;
+    text-align: justify;
+    
+}
+
+
+.ca-all{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #F8F9FA;
+    align-items: center;
+    height: 400px;
+}
+
+.ca-photo img{
+    width: 400px;
+    height: 300px;
+
+}
+
+.connect{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color:#F8F9FA ;
+}
+
+
+.connect h1{
+    font-size: 40px;
+}
+
+
+.vtu{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: skyblue;
+    border: 1px solid black;
+    font-size: 20px;
+   
+}
+
+.vtu:hover{
+    background-color: darkcyan;
+}
+
+.connect h4{
+    max-width: 800px;
+    text-align: center;
+    margin-left: 20%;
+    padding-bottom: 20px;
+    padding-top: -50px;
+    font-size: 15px;
+   
+}
+
+
+
+.sss{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+
+.sss{
+    display: flex;
+    flex-direction: column;
+}
+
+.ca-all{
+    display: flex;
+    flex-direction: column;
+    order: 1;
+}
+
+.ca-photo img{
+    width:350px;
+    margin-top: 500px;
+   
+}
+
+.ca-des p{
+    margin-top:100px;
+    max-width: 300px;
+    
+
+}
+
+.connect{
+    order: 2;
+    margin-top: 500px;
+  text-align: center;
+}
+
+.connect h4{
+    margin-left: 20px;
+}
+
+
+
+
+
+}
